@@ -1,8 +1,9 @@
 # desafios-test
-Librería de soporte para el proyecto de desafíos. 
+Desafíos es una librería que ayuda al testing automático partiendo de la lectura y posterior parseo de ficheros JSON donde se indican los datos de entrada al programa y los resultados esperados. 
+El resultado esperado se compara con el resultado del programa indicando si ha sido correcto o hay algún error.
 
 # License
-    desafios-test library - source code for the https://programaconsaba.com/desafios application
+    desafios-core - source code for the https://programaconsaba.com/desafios application
     Copyright (C) 2016 José Antonio Sabalete
 
     This program is free software: you can redistribute it and/or modify
