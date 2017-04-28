@@ -1,20 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	
-	<groupId>com.programaconsaba.desafios</groupId>
-	<artifactId>desafios-coreoooooo</artifactId>
-	<version>0.1.0-SNAPSHOT</version>
-	<packaging>jar</packaging>
 
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.programaconsaba.desafios</groupId>
+	<artifactId>desafios-core</artifactId>
+	<version>1.0.0.RC1</version>
+	<packaging>jar</packaging>
 	<name>Desafíos Core</name>
-	<description>
-		Desafíos es una librería que ayuda al testing automático partiendo de la lectura y posterior parseo
-		de ficheros JSON donde se indican los datos de entrada al programa y los resultados esperados. 
-		El resultado esperado se compara con el resultado del programa indicando si ha sido correcto o hay algún error.	
-	</description>
+	<description>Desafíos es una librería que ayuda al testing automático partiendo de la lectura y posterior parseo de ficheros JSON donde se indican los datos de entrada al programa y los resultados esperados. El resultado esperado se compara con el resultado del programa indicando si ha sido correcto o hay algún error.</description>
 	<url>https://programaconsaba.com/desafios</url>
+
+	<organization>
+		<name>Programa con Saba</name>
+		<url>https://programaconsaba.com</url>
+	</organization>
 	
+	<licenses>
+		<license>
+			<name>GNU General Public License v3.0</name>
+			<url>https://www.gnu.org/licenses/gpl-3.0.en.html</url>
+		</license>
+	</licenses>
+
 	<developers>
 		<developer>
 			<id>jasabalete</id>
@@ -23,13 +31,11 @@
 			<url>https://programaconsaba.com</url>
 		</developer>
 	</developers>
-	
+
 	<scm>
-		<url>https://github.com/programaconsaba/desafios-test</url>
-		<connection>scm:git:git://github.com:programaconsaba/desafios-test.git</connection>
-		<developerConnection>scm:git:git://github.com:programaconsaba/desafios-test.git</developerConnection>
+		<url>https://github.com/programaconsaba/desafios-core</url>
 	</scm>
-	
+
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -64,8 +70,4 @@
 
 	</dependencies>
 
-	<organization>
-		<name>Programa con Saba</name>
-		<url>https://programaconsaba.com</url>
-	</organization>
 </project>
