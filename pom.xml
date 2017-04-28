@@ -15,7 +15,7 @@
 		<name>Programa con Saba</name>
 		<url>https://programaconsaba.com</url>
 	</organization>
-	
+
 	<licenses>
 		<license>
 			<name>GNU General Public License v3.0</name>
@@ -37,6 +37,7 @@
 	</scm>
 
 	<properties>
+
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 
@@ -66,7 +67,6 @@
 			<version>${commons-logging.version}</version>
 			<scope>test</scope>
 		</dependency>
-
 
 	</dependencies>
 
