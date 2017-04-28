@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.programaconsaba.desafios</groupId>
 	<artifactId>desafios-core</artifactId>
-	<version>1.0.0.RC1</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 	<name>Desafíos Core</name>
 	<description>Desafíos es una librería que ayuda al testing automático partiendo de la lectura y posterior parseo de ficheros JSON donde se indican los datos de entrada al programa y los resultados esperados. El resultado esperado se compara con el resultado del programa indicando si ha sido correcto o hay algún error.</description>
