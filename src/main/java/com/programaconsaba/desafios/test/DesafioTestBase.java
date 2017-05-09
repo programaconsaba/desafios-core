@@ -53,7 +53,7 @@ public abstract class DesafioTestBase {
 			testCase = mapper.readValue(
 					Thread.currentThread().getContextClassLoader().getResourceAsStream(getTestFileName()),
 					DesafioTestCase.class);
-			System.out.println("BORRAR------ --> " + testCase);
+			log.info(testCase);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
